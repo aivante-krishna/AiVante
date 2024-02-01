@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start:fp": "ng serve financial-planner",
+    "start:admin": "ng serve internal-admin",
+    "start:pdp": "ng serve pdp",
+    "start:plan": "ng serve plan-select",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

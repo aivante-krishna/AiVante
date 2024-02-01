@@ -109,7 +109,7 @@
       },
       "root": "projects/financial-planner",
       "sourceRoot": "projects/financial-planner/src",
-      "prefix": "app",
+      "prefix": "aivante-fp",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -206,7 +206,7 @@
       },
       "root": "projects/internal-admin",
       "sourceRoot": "projects/internal-admin/src",
-      "prefix": "app",
+      "prefix": "aivante-ia",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -303,7 +303,7 @@
       },
       "root": "projects/pdp",
       "sourceRoot": "projects/pdp/src",
-      "prefix": "app",
+      "prefix": "aivante-pdp",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -400,7 +400,7 @@
       },
       "root": "projects/plan-select",
       "sourceRoot": "projects/plan-select/src",
-      "prefix": "app",
+      "prefix": "aivante-ps",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -492,7 +492,7 @@
       "projectType": "library",
       "root": "projects/aivante-lib",
       "sourceRoot": "projects/aivante-lib/src",
-      "prefix": "lib",
+      "prefix": "aivante-lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
