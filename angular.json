@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "aivante:build:production"
+              "buildTarget": "aivante:build:production"
             },
             "development": {
-              "browserTarget": "aivante:build:development"
+              "buildTarget": "aivante:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "aivante:build"
+            "buildTarget": "aivante:build"
           }
         },
         "test": {
@@ -162,10 +162,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "financial-planner:build:production"
+              "buildTarget": "financial-planner:build:production"
             },
             "development": {
-              "browserTarget": "financial-planner:build:development"
+              "buildTarget": "financial-planner:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -173,7 +173,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "financial-planner:build"
+            "buildTarget": "financial-planner:build"
           }
         },
         "test": {
@@ -259,10 +259,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "internal-admin:build:production"
+              "buildTarget": "internal-admin:build:production"
             },
             "development": {
-              "browserTarget": "internal-admin:build:development"
+              "buildTarget": "internal-admin:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -270,7 +270,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "internal-admin:build"
+            "buildTarget": "internal-admin:build"
           }
         },
         "test": {
@@ -356,10 +356,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pdp:build:production"
+              "buildTarget": "pdp:build:production"
             },
             "development": {
-              "browserTarget": "pdp:build:development"
+              "buildTarget": "pdp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -367,7 +367,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pdp:build"
+            "buildTarget": "pdp:build"
           }
         },
         "test": {
@@ -453,10 +453,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "plan-select:build:production"
+              "buildTarget": "plan-select:build:production"
             },
             "development": {
-              "browserTarget": "plan-select:build:development"
+              "buildTarget": "plan-select:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -464,7 +464,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "plan-select:build"
+            "buildTarget": "plan-select:build"
           }
         },
         "test": {
